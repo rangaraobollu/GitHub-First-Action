@@ -1,0 +1,12 @@
+# This is a basic workflow to help you get started with Actions
+
+name: myfirst workflow
+on: workflow_dispatch
+jobs:
+  myfirst-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print greating
+        run: echo " Hello World"
+      - name: Print GoodBye
+        run: echo " Done - Bye"
