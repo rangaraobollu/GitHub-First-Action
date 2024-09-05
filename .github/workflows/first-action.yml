@@ -1,7 +1,8 @@
 # This is a basic workflow to help you get started with Actions
 
 name: myfirst workflow
-on: workflow_dispatch
+on: 
+  push
 jobs:
   myfirst-job:
     runs-on: ubuntu-latest
